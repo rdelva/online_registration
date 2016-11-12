@@ -53,7 +53,7 @@
 									<div>
 										<label for="state">State</label>
 										<select name="user_state" id="state">
-											<option value=" ">&nbsp;</option>
+											<option value=" ">Choose State</option>
 											<option value="Alabama">Alabama</option>
 											<option value="Alaska">Alaska</option>
 											<option value="Arizona">Arizona</option>
@@ -116,41 +116,43 @@
 							
 							<fieldset>
 							<h3>Newsletter</h3>
-							<p>Select the newsletters you would like to recieve</p>
-								
-									<div>
-										<input type="checkbox" name="user_htmlNews" id="htmlNews" value="HTML News">
-										<label for="htmlNews">HTML News</label>
-									</div>
+							<div class="newsLetterType">
+								<p>Select the newsletters you would like to recieve</p>
+									
+										<div>
+											<input type="checkbox" name="user_htmlNews" id="htmlNews" value="HTML News">
+											<label for="htmlNews">HTML News</label>
+										</div>
 
-									<div>
-										<input type="checkbox" name="user_cssNews" id="cssNews" value="CSS News">
-										<label for="cssNews">CSS News</label>
-									</div>
+										<div>
+											<input type="checkbox" name="user_cssNews" id="cssNews" value="CSS News">
+											<label for="cssNews">CSS News</label>
+										</div>
 
-									<div>
-										<input type="checkbox" name="user_javaScriptNews" id="javaScriptNews" value="Javascript News">
-										<label for="javaScriptNews">Jasvascript News</label>
-									</div>
+										<div>
+											<input type="checkbox" name="user_javaScriptNews" id="javaScriptNews" value="Javascript News">
+											<label for="javaScriptNews">Jasvascript News</label>
+										</div>
 
-							<p>Newsletter format</p>
-								
-									<div>
-										<input type="radio" name="user_formatHTML" id="htmlFormat" value="HTML">
-										<label for="htmlFormat">HTML</label>
-									</div>
+								<p>Newsletter format</p>
+									
+										<div>
+											<input type="radio" name="user_formatHTML" id="htmlFormat" value="HTML">
+											<label for="htmlFormat">HTML</label>
+										</div>
 
-									<div>
-										<input type="radio" name="user_formatPlainText" id="plainTextFormat" value="Plain text">
-										<label for="plainTextFormat">Plain text</label>
-									</div>
+										<div>
+											<input type="radio" name="user_formatPlainText" id="plainTextFormat" value="Plain text">
+											<label for="plainTextFormat">Plain text</label>
+										</div>
 
-									<div>
-										<label for="topics">Other topics you'd like to hear about</label>
-										<textarea id="topics" name="user_topics"></textarea>
-									</div>
+										<div>
+											<label for="topics">Other topics you'd like to hear about</label>
+											<textarea id="topics" name="user_topics"></textarea>
+										</div>
+								</div>		
 							</fieldset>
-							<button type="submit">Submit</button>
+							<button type="submit">Sign Up</button>
 					</form>
 				</div> <!-- end of container -->				
 			</section>
