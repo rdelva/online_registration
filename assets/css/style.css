@@ -1,0 +1,52 @@
+/*--------------------------------------------------
+Base Elements Styles
+----------------------------------------------------*/
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	color: #2d3945;
+	font-family: 'Merriweather', serif;
+
+}
+
+/*--------------------------------------------------
+Base Layout Styles
+----------------------------------------------------*/
+header {
+	background:#2d3945;
+	color:#fff;
+}
+
+h2 + p {
+	color: #9ea9b2;
+}
+
+fieldset {
+	border:none;
+	margin:0;
+	padding:0;
+}
+
+.signUp {
+	border-bottom: #2d3945 4px solid;
+}
+
+.contactInfo {
+		border-top: #2d3945 1px solid;
+		margin-top:.20em;
+}
+.container {
+	padding:1em;
+	border: red 1px solid;
+}
+
+
+label {
+	width:150px;
+		
+} 
+
