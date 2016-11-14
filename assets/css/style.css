@@ -22,8 +22,13 @@ header {
 	text-align: center;
 }
 
+h2{
+	text-align: center;
+}
+
 h2 + p {
 	color: #9ea9b2;
+	text-align: center;
 }
 
 fieldset {
@@ -65,9 +70,6 @@ footer
 	padding-bottom: .5em;
 }
 
-input:focus {
-	background-color:;
-}
 
 
 [type="submit"] {
@@ -88,6 +90,7 @@ input:focus {
 	font-family: 'Titillium Web', sans-serif;
 	border-radius: 5px;
 	padding:  0 1em;
+
 }
 
 
@@ -107,9 +110,32 @@ textarea {
 	font-family: 'Titillium Web', sans-serif;
 }
  
- input[type="text"] {
- 	content:attr(placeholder, 'Required');
- }
+::-webkit-input-placeholder {
+	text-align: right;
+}
+
+::-moz-placeholder
+ {
+	
+	text-align: right;
+}
+
+:-ms-input-placeholder { 
+  	text-align: right;
+  }
+
+
+
+input:focus,
+textarea:focus
+{
+	
+	background-color: #2d3945;
+	color:#fff;
+}
+
+
+
 
 
 /*--------------------------------------------------
