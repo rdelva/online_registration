@@ -9,7 +9,7 @@ Base Elements Styles
 
 body {
 	color: #2d3945;
-	font-family: 'Merriweather', serif;
+	font-family: 'Titillium Web', sans-serif;
 
 }
 
@@ -32,6 +32,16 @@ fieldset {
 	padding:0;
 }
 
+.wrap {
+	min-height: calc(100vh - 52px);
+}
+
+footer 
+{
+	color:#9ea9b2;
+	text-align: center;
+}
+
 .signUp {
 	border-bottom: #2d3945 4px solid;
 }
@@ -42,6 +52,7 @@ fieldset {
 }
 .container {
 	padding:1em;
+	margin: 0 auto;
 	
 }
 
@@ -49,25 +60,18 @@ fieldset {
 	padding-bottom: 1.5em;
 } 
 
-.newsLetterType label {
+.contactInfo label,.newsLetterType label {
 	display: inline-block;
 	padding-bottom: .5em;
 }
 
-.newsLetterType div,
-{
-	padding-bottom: 1.5em;
-
+input:focus {
+	background-color:;
 }
+
 
 [type="submit"] {
 	margin: 2em 0;
-}
-
-
-label {
-	margin-bottom: 1em;
-	display: inline-block;
 }
 
 
@@ -81,21 +85,11 @@ label {
 	display: block;
 	background-color: #eff0f1;
 	color:#a8adb2;
-	font-family: 'Merriweather', serif;
+	font-family: 'Titillium Web', sans-serif;
 	border-radius: 5px;
+	padding:  0 1em;
 }
 
-
-
-input { 
-	text-align: right; 
-	padding-right: 1em;
-}
-
-
-input:focus { 
-	text-align: left 
-}
 
 textarea {
 	width: 100%;
@@ -110,22 +104,45 @@ textarea {
 	width: 100%;
 	height: 3em;
 	border: none;
-	font-family: 'Merriweather', serif;
-
+	font-family: 'Titillium Web', sans-serif;
 }
-/*
-label {
-	width:150px;
-	display: inline-block;
-		
-} */
+ 
+ input[type="text"] {
+ 	content:attr(placeholder, 'Required');
+ }
+
+
 /*--------------------------------------------------
-Form Layout Styles
+Media Queries
 ----------------------------------------------------*/
 
-:target {
-	border-color: #2d3945;
+@media  screen and (min-width: 760px){
+
+
+	.container{
+		width: 50%;
+
+	}
+
+	.contactInfo label {
+		max-width:150px;
+		width: 150px;
+	}
+
+
+	[type="text"],
+	[type="tel"],
+	[type="email"],
+	[name="user_state"] {
+		display: inline;
+		max-width: calc((100% - 150px) -  1em);
+	} 
+
+
+
+
 }
+
 
 
 
