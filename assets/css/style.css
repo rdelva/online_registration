@@ -37,6 +37,11 @@ fieldset {
 	padding:0;
 }
 
+legend {
+	font-size: 2em;
+	padding: .75em 0;
+}
+
 .wrap {
 	min-height: calc(100vh - 52px);
 }
@@ -130,8 +135,8 @@ input:focus,
 textarea:focus
 {
 	
-	background-color: #2d3945;
-	color:#fff;
+	border-bottom: solid 3px #2d3945;
+	color:#2d3945;
 }
 
 
@@ -146,7 +151,7 @@ Media Queries
 
 
 	.container{
-		width: 50%;
+		width: 75%;
 
 	}
 
@@ -169,6 +174,19 @@ Media Queries
 
 }
 
+@media  screen and (min-width: 1024px){
+
+
+	.container{
+		width: 50%;
+
+	}
+
+
+
+
+
+}
 
 
 
