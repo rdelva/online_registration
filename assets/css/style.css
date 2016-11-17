@@ -10,7 +10,6 @@ Base Elements Styles
 body {
 	color: #2d3945;
 	font-family: 'Titillium Web', sans-serif;
-
 }
 
 /*--------------------------------------------------
@@ -29,6 +28,20 @@ h2{
 h2 + p {
 	color: #9ea9b2;
 	text-align: center;
+}
+
+section {
+	background-image: url("../img/background.jpg");	
+	   background-size: cover;
+    background-repeat: no-repeat;
+        background-position: center; 
+
+}
+
+section .container {
+	background-color: #fff;
+	border-bottom: solid 1px #2d3945;
+
 }
 
 fieldset {
@@ -52,7 +65,8 @@ legend {
 
 footer 
 {
-	color:#9ea9b2;
+	background:#2d3945;
+	color:#fff;
 	text-align: center;
 }
 
@@ -64,9 +78,13 @@ footer
 		border-top: #2d3945 1px solid;
 		margin-top:.20em;
 }
+
+
+
 .container {
 	padding:1em;
 	margin: 0 auto;
+	
 	
 }
 
@@ -118,7 +136,17 @@ textarea {
 	height: 3em;
 	border: none;
 	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.25em;
 }
+
+[type="submit"]:hover {
+	background-color: #fff;
+	color:#4ebbb5;
+	width: 100%;
+	border: solid 1px #4ebbb5;
+}
+
+
  
 ::-webkit-input-placeholder {
 	text-align: right;
@@ -186,7 +214,7 @@ Media Queries
 
 
 	.container{
-		width: 50%;
+		width: 60%;
 
 	}
 
