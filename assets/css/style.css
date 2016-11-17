@@ -205,9 +205,6 @@ Media Queries
 		max-width: calc((100% - 150px) -  1em);
 	} 
 
-
-
-
 }
 
 @media  screen and (min-width: 1024px){
@@ -217,10 +214,6 @@ Media Queries
 		width: 60%;
 
 	}
-
-
-
-
 
 }
 
