@@ -122,6 +122,7 @@ textarea {
  
 ::-webkit-input-placeholder {
 	text-align: right;
+	font-style: italic;
 }
 
 ::-moz-placeholder
